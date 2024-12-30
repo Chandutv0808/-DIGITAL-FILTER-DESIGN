@@ -1,0 +1,118 @@
+$date
+	Mon Dec 30 11:21:44 2024
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module tb_fir_filter $end
+$var wire 16 ! y_out [15:0] $end
+$var reg 1 " clk $end
+$var reg 1 # rst_n $end
+$var reg 16 $ x_in [15:0] $end
+$scope module uut $end
+$var wire 1 " clk $end
+$var wire 1 # rst_n $end
+$var wire 16 % x_in [15:0] $end
+$var reg 16 & y_out [15:0] $end
+$var integer 32 ' i [31:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+b100 '
+b0 &
+b0 %
+b0 $
+0#
+0"
+b0 !
+$end
+#5
+b100 '
+1"
+#10
+0"
+1#
+#15
+b0 '
+1"
+#20
+0"
+b1 $
+b1 %
+#25
+b0 '
+1"
+#30
+0"
+b10 $
+b10 %
+#35
+b100 !
+b100 &
+b0 '
+1"
+#40
+0"
+b11 $
+b11 %
+#45
+b10000 !
+b10000 &
+b0 '
+1"
+#50
+0"
+b100 $
+b100 %
+#55
+b100100 !
+b100100 &
+b0 '
+1"
+#60
+0"
+b101 $
+b101 %
+#65
+b111100 !
+b111100 &
+b0 '
+1"
+#70
+0"
+#75
+b1010100 !
+b1010100 &
+b0 '
+1"
+#80
+0"
+#85
+b1101000 !
+b1101000 &
+b0 '
+1"
+#90
+0"
+#95
+b1110100 !
+b1110100 &
+b0 '
+1"
+#100
+0"
+#105
+b1111000 !
+b1111000 &
+b0 '
+1"
+#110
+0"
